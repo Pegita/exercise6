@@ -1,0 +1,14 @@
+
+#!/bin/bash
+
+# Scenario 1: initializing and configuring a New Repository
+
+#mkdir project_exe6
+cd project_exe6
+git init
+git config --global user.name "pegita"
+git config --global user.email "pegah.kakvand@yahoo.com"
+touch README.md
+echo "this is readme initial content wrote by pegah kakvand" > README.md
+git add README.md
+git commit -m "initial commit"
